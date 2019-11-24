@@ -1,0 +1,46 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.App {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  min-width: 319px;
+
+  .pageHeader {
+    color: $ms-color-themePrimary;
+    text-align: center;
+    padding: 12px;
+  }
+  .center {
+    text-align: center;
+  }
+  .developerIcon {
+    @include ms-font-xxl;
+    font-size: 42px;
+    padding-top: 24px;
+  }
+  .headerCard {
+    @include ms-font-l;
+  }
+}
+
+@media (min-width: 768px) {
+  .pageHeader {
+    @include ms-font-xxl;
+  }
+}
+
+@media (max-width: 767px) {
+  .App {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .pageHeader {
+    @include ms-font-xl;
+  }
+}
