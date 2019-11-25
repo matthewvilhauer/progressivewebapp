@@ -24,7 +24,6 @@
   "bugs": {
     "url": "https://github.com/matthewvilhauer/react-webpack-typescript-office-ui-fabric-starter/issues"
   },
-  "homepage": "https://github.com/matthewvilhauer/react-webpack-typescript-office-ui-fabric-starter",
   "scripts": {
     "build": "yarn run clean-dist && webpack -p --config=configs/webpack/prod.js",
     "clean-dist": "rimraf dist/*",
@@ -32,7 +31,9 @@
     "start": "yarn run start-dev",
     "start-dev": "webpack-dev-server --config=configs/webpack/dev.js",
     "start-prod": "yarn run build && node express.js",
-    "test": "jest --coverage --watchAll --config=configs/jest.json"
+    "test": "jest --coverage --watchAll --config=configs/jest.json",
+     "deploy-gh": "yarn run gh-pages",
+    "gh-pages": "gh-pages -d dist -b gh-pages"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
@@ -90,5 +91,6 @@
     "env": {},
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
-  }
+  },
+  "homepage": "https://matthewvilhauer.github.io/progressivewebapp/"
 }
