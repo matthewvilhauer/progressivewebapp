@@ -10,12 +10,12 @@ module.exports = merge(commonConfig, {
   output: {
     filename: "js/bundle.[hash].min.js",
     path: resolve(__dirname, "../../dist"),
-    publicPath: "/"
+    publicPath: "/progressivewebapp"
   },
   devtool: "source-map",
   plugins: [
     new WorkboxPlugin.GenerateSW({
-      swDest: "service-worker.js",
+      swDest: "/service-worker.js",
       // Do not precache images
       exclude: [/\.(?:png|jpg|jpeg|svg)$/],
 

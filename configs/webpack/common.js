@@ -16,6 +16,11 @@ module.exports = {
     extensions: [".ts", ".tsx", ".js", ".jsx"]
   },
   context: resolve(__dirname, "../../src"),
+  output: {
+    filename: "js/bundle.[hash].min.js",
+    path: resolve(__dirname, "../../dist"),
+    publicPath: "/progressivewebapp"
+  },
   module: {
     rules: [
       {

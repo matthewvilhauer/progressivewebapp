@@ -1364,9 +1364,9 @@
     "@types/react" "*"
 
 "@types/react-router-dom@^5.1.2":
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.1.2.tgz#853f229f1f297513c0be84f7c914a08b778cfdf5"
-  integrity sha512-kRx8hoBflE4Dp7uus+j/0uMHR5uGTAvQtc4A3vOTWKS+epe0leCuxEx7HNT7XGUd1lH53/moWM51MV2YUyhzAg==
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.1.3.tgz#b5d28e7850bd274d944c0fbbe5d57e6b30d71196"
+  integrity sha512-pCq7AkOvjE65jkGS5fQwQhvUp4+4PVD9g39gXLZViP2UqFiFzsEpB3PKf0O6mdbKsewSK8N14/eegisa/0CwnA==
   dependencies:
     "@types/history" "*"
     "@types/react" "*"
@@ -2730,9 +2730,9 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30001010:
-  version "1.0.30001011"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001011.tgz#0d6c4549c78c4a800bb043a83ca0cbe0aee6c6e1"
-  integrity sha512-h+Eqyn/YA6o6ZTqpS86PyRmNWOs1r54EBDcd2NTwwfsXQ8re1B38SnB+p2RKF8OUsyEIjeDU8XGec1RGO/wYCg==
+  version "1.0.30001012"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001012.tgz#653ec635e815b9e0fb801890923b0c2079eb34ec"
+  integrity sha512-7RR4Uh04t9K1uYRWzOJmzplgEOAXbfK72oVNokCdMzA67trrhPzy93ahKk1AWHiA0c58tD2P+NHqxrA8FZ+Trg==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -3876,9 +3876,9 @@ error-ex@^1.2.0, error-ex@^1.3.1:
     is-arrayish "^0.2.1"
 
 es-abstract@^1.12.0, es-abstract@^1.5.1:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.16.1.tgz#9edab53bec49b7d9cd513983520ed99703216a8a"
-  integrity sha512-38Pa/Asg/9i3Gkgj1oAK0WfWDv03ngRV39qgHdMSJZ23AAAWRKFJuwT5QPtCDg7paIWG1OEpt4QnzDFVXfJIAQ==
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.16.2.tgz#4e874331645e9925edef141e74fc4bd144669d34"
+  integrity sha512-jYo/J8XU2emLXl3OLwfwtuFfuF2w6DYPs+xy9ZfVyPkDcrauu6LYrw/q2TyCtrbc/KUdCiC5e9UajRhgNkVopA==
   dependencies:
     es-to-primitive "^1.2.1"
     function-bind "^1.1.1"
@@ -7575,9 +7575,9 @@ office-ui-fabric-core@^11.0.0:
   integrity sha512-K6+KGnBXXjfSxxZpp+4oDXVLgUc//7OnXrn8F08VoJnGhEz27WUf4ZuMa32SjGoqirWlb4JlKkXbOpC9cis6dQ==
 
 office-ui-fabric-react@^7.29.2, office-ui-fabric-react@^7.51.0, office-ui-fabric-react@^7.55.3, office-ui-fabric-react@^7.58.0, office-ui-fabric-react@^7.59.0, office-ui-fabric-react@^7.60.1, office-ui-fabric-react@^7.62.0, office-ui-fabric-react@^7.64.1:
-  version "7.64.1"
-  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-7.64.1.tgz#cac3df3415edfaecb7450556e4a5a6eb1fe0430f"
-  integrity sha512-8ajx+l/sTjmF0/0LD5u33pe7L+Z89NUyZNPf1dADlyMpJgyGtLYJKZ5sEwmuU/2XiBTY3EbNpEET4/BmC1iqXw==
+  version "7.64.2"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-7.64.2.tgz#07a20941ced07a3cc82ba82dca0a07abb2650760"
+  integrity sha512-k3HJ2Sg7E/VkmlJ/JVTReUEKfTDSyo2yd9NDdwtU2rTzgtaDaAJv8/tuQZMcJJzxaKvjtVDmXS2gcPyquX6WAQ==
   dependencies:
     "@microsoft/load-themed-styles" "^1.7.13"
     "@uifabric/foundation" "^7.5.0"
@@ -10099,9 +10099,9 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 uglify-js@^3.1.4, uglify-js@^3.6.0:
-  version "3.6.9"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.6.9.tgz#85d353edb6ddfb62a9d798f36e91792249320611"
-  integrity sha512-pcnnhaoG6RtrvHJ1dFncAe8Od6Nuy30oaJ82ts6//sGSXOP5UjBMEthiProjXmMNHOfd93sqlkztifFMcb+4yw==
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.7.0.tgz#14b854003386b7a7c045910f43afbc96d2aa5307"
+  integrity sha512-PC/ee458NEMITe1OufAjal65i6lB58R1HWMRcxwvdz1UopW0DYqlRL3xdu3IcTvTXsB02CRHykidkTRL+A3hQA==
   dependencies:
     commander "~2.20.3"
     source-map "~0.6.1"
