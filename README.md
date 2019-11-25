@@ -10,10 +10,10 @@ This project is an extension of the **[Office UI Fabric Developer Starter-kit](h
 * **[React](https://facebook.github.io/react/)** (>16.8.x)
 * **[Typescript](https://www.typescriptlang.org/)** (>7.x)
 * **[Webpack](https://webpack.js.org/)** (>4.x)
-* * Configured to generate a Web App Manifest and a Service Worker during a production build
-* * Provides basic image and static asset caching for ultra-fast load times
+  * Configured to generate a Web App Manifest and a Service Worker during a production build
+  * Provides basic image and static asset caching for ultra-fast load times
 * **[Office UI Fabric](https://developer.microsoft.com/en-us/fabric#/)** (7.x for office-ui-fabric-react, 11.x for office-ui-fabric-core)
-* * Comes with extra @uifabric packages to assist developers in creating a seamless UI based on the UI Fabric UX framework
+  * Comes with extra @uifabric packages to assist developers in creating a seamless UI based on the UI Fabric UX framework
 * **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** using [React Hot Loader](https://github.com/gaearon/react-hot-loader) (4.x)
 * [Babel](http://babeljs.io/) (7.x)
 * [SASS](http://sass-lang.com/)
