@@ -64,7 +64,7 @@
     "image-webpack-loader": "^6.0.0",
     "jest": "^24.9.0",
     "lodash": "^4.17.15",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "office-ui-fabric-core": "^11.0.0",
     "office-ui-fabric-react": "^7.64.1",
     "react": "^16.11.0",
